@@ -14,7 +14,7 @@ namespace Models
         public DateTime DataCreated { get; set; } = DateTime.Now;
         public DateTime? DataModified { get; set; }
         public bool IsActive { get; set; } = true;
-        public bool IsDeleted { get; set; } = false;
+        public bool IsDeleteds { get; set; } = false;
 
     }
 }
